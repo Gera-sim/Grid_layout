@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:color="?colorAccent"
+        android:alpha="1.0"
+        android:state_pressed="true"
+        android:drawable="@drawable/item_pressed"/>
+
+    <item
+        android:color="?colorAccent"
+        android:alpha="0.5"
+        android:state_enabled="false"
+        android:drawable="@drawable/item_disabled"/>
+
+    <item
+        android:color="?colorAccent"
+        android:alpha="1.0"
+        android:drawable="@drawable/item_enabled"
+        />
+</selector>
